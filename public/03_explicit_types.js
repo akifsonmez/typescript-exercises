@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // explicit types
 var age;
 age = 234;
@@ -22,3 +22,12 @@ user = [];
 user = { userName: "Akif" };
 var car;
 car = { brand: "Tesla", year: 2012, model: "XY--2021" };
+// any
+var x;
+x = 5;
+x = false;
+x = "1";
+var mixedArray = [];
+mixedArray.push(2);
+mixedArray.push("qw");
+mixedArray.push(false);

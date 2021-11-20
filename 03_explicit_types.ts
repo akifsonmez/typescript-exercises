@@ -34,4 +34,16 @@ let car: {
 
 car = { brand: "Tesla", year: 2012, model: "XY--2021" }
 
+
+// any
+let x: any
+x = 5
+x = false
+x = "1"
+
+let mixedArray : any[] = []
+mixedArray.push(2)
+mixedArray.push("qw")
+mixedArray.push(false)
+
 export { }

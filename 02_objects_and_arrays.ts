@@ -21,3 +21,5 @@ user = {
     age: 12,
     gender: "male"
 }
+
+export { }

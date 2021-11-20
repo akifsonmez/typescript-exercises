@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var numbers = [12, 1, 3, 4, 56, 89];
 //numbers.push("123") should be number
 var mixed = ["abc", 432];

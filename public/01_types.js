@@ -1,10 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var myName = "Akif";
-var myAge = 28;
+const myName = "Akif";
+const myAge = 28;
 console.log(myName);
 console.log(myAge);
-var twoSum = function (x, y) {
+const twoSum = (x, y) => {
     return x + y;
 };
 console.log(twoSum(12, 23));
+export {};

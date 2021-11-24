@@ -1,11 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var numbers = [12, 1, 3, 4, 56, 89];
+let numbers = [12, 1, 3, 4, 56, 89];
 //numbers.push("123") should be number
-var mixed = ["abc", 432];
+let mixed = ["abc", 432];
 //mixed.push(false) should be string or number
 mixed.push("bvd");
-var user = {
+let user = {
     name: "Akif",
     age: 25,
     gender: "male"
@@ -17,3 +15,4 @@ user = {
     age: 12,
     gender: "male"
 };
+export {};

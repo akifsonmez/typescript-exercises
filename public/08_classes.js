@@ -1,33 +1,30 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var User = /** @class */ (function () {
-    function User(name, gender, age) {
+class User {
+    constructor(name, gender, age) {
         this.name = name;
         this.gender = gender;
         this.age = age;
     }
-    User.prototype.format = function () {
-        console.log("".concat(this.name, " is ").concat(this.age, " years old ").concat(this.gender));
-    };
-    return User;
-}());
-var user1 = new User("Afife", "male", 29);
-var user2 = new User("Akif", "male", 23);
+    format() {
+        console.log(`${this.name} is ${this.age} years old ${this.gender}`);
+    }
+}
+const user1 = new User("Afife", "male", 29);
+const user2 = new User("Akif", "male", 23);
 user1.age = 29;
 // user1.gender = "male" // gender is readonly 
 // user1.name = "Afik" // name is private
-var users = [];
+const users = [];
 users.push(user1);
 users.push(user2);
-var Person = /** @class */ (function () {
-    function Person(name, gender, age) {
+class Person {
+    constructor(name, gender, age) {
         this.name = name;
         this.gender = gender;
         this.age = age;
     }
-    Person.prototype.format = function () {
-        console.log("".concat(this.name, " is ").concat(this.age, " years old ").concat(this.gender));
-    };
-    return Person;
-}());
-var person = new Person("Akif", "male", 12);
+    format() {
+        console.log(`${this.name} is ${this.age} years old ${this.gender}`);
+    }
+}
+const person = new Person("Akif", "male", 12);
+export {};

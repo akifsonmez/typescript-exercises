@@ -1,7 +1,7 @@
 "use strict";
-var saySomething = function (something) {
+const saySomething = (something) => {
     console.log(something);
 };
-var printUser = function (user) {
+const printUser = (user) => {
     console.log(user.name, user.age);
 };

@@ -1,15 +1,14 @@
 "use strict";
-var sayHello;
-sayHello = function () { console.log("hello"); };
-var add = function (x, y) {
-    if (y === void 0) { y = 0; }
+let sayHello;
+sayHello = () => { console.log("hello"); };
+const add = (x, y = 0) => {
     console.log(x + y);
 };
-var addWithOptinal = function (x, y, z) {
+const addWithOptinal = (x, y, z) => {
     console.log(x + y);
 };
 add(2);
 addWithOptinal(34, 122);
-var subtract = function (x, y) {
+const subtract = (x, y) => {
     return x - y;
 };

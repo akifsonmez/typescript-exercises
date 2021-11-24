@@ -1,33 +1,32 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // explicit types
-var age;
+let age;
 age = 234;
 // age = "as" should be number
-var myName;
+let myName;
 myName = "Akif";
 // arrays
-var numbers = []; // it should be initialized
+let numbers = []; // it should be initialized
 numbers.push(12);
 // union
-var oddNumbers = [];
+let oddNumbers = [];
 oddNumbers.push("1");
 oddNumbers.push(3);
-var evenNumber;
+let evenNumber;
 evenNumber = 12;
 evenNumber = "12";
 //objects
-var user;
+let user;
 user = [];
 user = { userName: "Akif" };
-var car;
+let car;
 car = { brand: "Tesla", year: 2012, model: "XY--2021" };
 // any
-var x;
+let x;
 x = 5;
 x = false;
 x = "1";
-var mixedArray = [];
+let mixedArray = [];
 mixedArray.push(2);
 mixedArray.push("qw");
 mixedArray.push(false);
+export {};
